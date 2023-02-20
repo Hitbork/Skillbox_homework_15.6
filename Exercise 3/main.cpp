@@ -42,7 +42,7 @@ int main() {
             if (vec.size() > 5) {
                 std::cout << "5th element is " << vec[4] << "\n\n";
             } else {
-                std::cout << "There is no 5h element\n\n";
+                std::cerr << "There is no 5th element\n\n";
             }
         }
     }
